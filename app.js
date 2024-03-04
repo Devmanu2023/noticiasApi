@@ -8,7 +8,7 @@ const app = express();
 const PORT = 3000;
 
 // Conexión a MongoDB
-mongoose.connect('mongodb://localhost:27017/noticias', {
+mongoose.connect('mongodb+srv://manu:manuel123@sena.cmalqxx.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
